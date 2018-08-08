@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="shortcut icon" href="a-level-ico.png"/>
+    
     <title>Demo: makasin</title>
-    <link href="https://fonts.googleapis.com/css?family=Righteous|Russo+One" rel="stylesheet"> 
-    <link rel="stylesheet" href="styele.css"/>
+    
+    <link rel="stylesheet" href="idex.css"/>
   </head>
   <body>
     <nav>
     <p id = "demo"></p>
-    </nav>
+	<button onclick = 'document.body.addEventListener ( "click", setWayPoint )'>Траектория</button>
+	<button onclick = 'document.body.removeEventListener ( "click", setWayPoint ); setPersonage () '>Запуск</button>
+</nav>
     <script src="index.js"></script>
   </body>
 </html>
